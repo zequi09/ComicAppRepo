@@ -30,7 +30,7 @@ git checkout main
 
 6. Para ejecutar el proyecto necesitamos node instalado, sino cuentas con node puedes descargarlo [aquí](https://nodejs.org/es/download/).
 
-7. Inicialmente necesitas instalar las dependencias de desarrollo con las que cuenta el proyecto desde donde quedamos en el paso 3 es decir dentro de la carpeta **ComicAppRepo** y ejecuamos:
+7. Inicialmente necesitas instalar las dependencias de desarrollo con las que cuenta el proyecto. Desde donde quedamos en el paso 3 es decir dentro de la carpeta **ComicAppRepo** y ejecutamos:
 
 ```bash
 npm install
