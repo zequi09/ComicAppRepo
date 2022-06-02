@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.title{
+  text-align: center;
+  font-size: 4rem;
+}
+
+img{
+  width: 100%;
+  max-width: 500px; 
+  align-self: center ;
+}
+
+.loading-spinner{
+  justify-content: center;
+  padding: 30rem;
+  width: 100%;
+}
+
+.main-container{
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 2px 2px #272727;
+}
