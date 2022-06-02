@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 //Style
-import { Col, Container, Row, Spinner } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 //Export my service
 import { getComicFromURL } from "../Services/ComicService";
 //Components
@@ -31,7 +31,6 @@ const ComicLayout = () => {
         randomNumber: number,
       };
       const service = await getComicFromURL(obj);
-      console.log(service);
       if (service.status) {
         if (service.status === 200) {
           const { img, title, alt } = service.data;

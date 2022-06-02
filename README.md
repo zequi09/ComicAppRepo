@@ -1,36 +1,38 @@
 # Este proyecto hace parte de la prueba técnica para Frontend Developer
 
-Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app) que permite crea una plantilla básica de un proyecto en React.
+Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app) que permite crear una plantilla básica de un proyecto en React.
 
 ## Pasos para ejecutar el proyecto
 
 1. Necesitamos descargar el proyecto para ejecutarlo de manera local, para eso necesitamos git que en caso de no tenerlo los podemos descargar [aquí](https://git-scm.com).
 
-2. Una vez tengamos git instalado podemos clonar el proyecto abriendo la terminal del sistema operativo en el que estés y ejecutar el siguiente comando:
+2. Verificar la carpeta en la cual quieras tener el proyecto por ejemplo en tu escritorio, en la carpeta descargas o donde te sientas mejor.
+
+3. Una vez tengamos git instalado podemos clonar el proyecto abriendo la terminal del sistema operativo en el que estés y ejecutar el siguiente comando:
 
 ```bash
 git clone https://github.com/zequi09/ComicAppRepo.git
 ```
 
-3. Seguidamente nos ubicaremos en la carpeta del proyecto ejecutanto el seguiente comando:
+4. Seguidamente nos ubicaremos en la carpeta del proyecto ejecutanto el seguiente comando:
 
 ```bash
 cd ComicAppRepo
 ```
 
-4. Nos pondremos en la rama main con el comando:
+5. Nos pondremos en la rama main con el comando:
 
 ```bash
 git checkout main
 ```
 
-5. **Paso Opcional:** Si deseas ver y modificar el código puedes abrir la carpeta "ComicAppRepo" con el editor de código que uses.
+6. **Paso Opcional:** Si deseas ver y modificar el código puedes abrir la carpeta "ComicAppRepo" con el editor de código que uses.
 
 ## Ejecutar el proyecto
 
-6. Para ejecutar el proyecto necesitamos node instalado, sino cuentas con node puedes descargarlo [aquí](https://nodejs.org/es/download/).
+7. Para ejecutar el proyecto necesitamos tener node instalado, sino cuentas con node puedes descargarlo [aquí](https://nodejs.org/es/download/).
 
-7. Inicialmente necesitas instalar las dependencias de desarrollo con las que cuenta el proyecto. Desde donde quedamos en el paso 3 es decir dentro de la carpeta **ComicAppRepo** y ejecutamos:
+8. Inicialmente necesitas instalar las dependencias de desarrollo con las que cuenta el proyecto. Desde donde quedamos en el paso 3 es decir dentro de la carpeta **ComicAppRepo** y ejecutamos:
 
 ```bash
 npm install
@@ -38,7 +40,7 @@ npm install
 
 Este paso puede tardar unos segundos.
 
-8. Cuando esté terminado el paso anterior sin ningún error ejecutaremos:
+9. Cuando esté terminado el paso anterior sin ningún error ejecutaremos:
 
 ```bash
 npm start
